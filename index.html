@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tic-Tac-Toe | Prodigy InfoTech</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="game-container">
+
+        <!-- Heading -->
+        <div class="header">
+            <p class="task-label">PRODIGY INFOTECH • TASK 03</p>
+
+            <h1>Tic-Tac-Toe</h1>
+
+            <p class="description">
+                Play Tic-Tac-Toe with a friend or challenge the AI.
+            </p>
+        </div>
+
+
+        <!-- Game Mode -->
+        <div class="mode-section">
+
+            <h2>Choose Game Mode</h2>
+
+            <div class="mode-buttons">
+
+                <button id="twoPlayerBtn" class="mode-btn active">
+                    2 Players
+                </button>
+
+                <button id="aiBtn" class="mode-btn">
+                    Play vs AI
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Turn -->
+        <div class="turn-section">
+
+            <p id="turnMessage">
+                Player X's Turn
+            </p>
+
+        </div>
+
+
+        <!-- Game Board -->
+        <div class="game-board" id="gameBoard">
+
+            <button class="cell" data-index="0"></button>
+
+            <button class="cell" data-index="1"></button>
+
+            <button class="cell" data-index="2"></button>
+
+
+            <button class="cell" data-index="3"></button>
+
+            <button class="cell" data-index="4"></button>
+
+            <button class="cell" data-index="5"></button>
+
+
+            <button class="cell" data-index="6"></button>
+
+            <button class="cell" data-index="7"></button>
+
+            <button class="cell" data-index="8"></button>
+
+        </div>
+
+
+        <!-- Result -->
+        <p id="resultMessage"></p>
+
+
+        <!-- Reset -->
+        <button id="resetBtn" class="reset-btn">
+            New Game
+        </button>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
