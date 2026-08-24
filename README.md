@@ -86,15 +86,15 @@ X |  |
 
 ### 1. Two Players Mode
 
-![Two Players Mode](screenshot-1-two-players.png)
+![Two Players Mode](screenshots/screenshot-1-two-players.png)
 
 ### 2. Play vs AI Mode
 
-![Play vs AI Mode](screenshot-2-ai-mode.png)
+![Play vs AI Mode](screenshots/screenshot-2-ai-mode.png)
 
 ### 3. Mobile Responsive View
 
-![Mobile Responsive View](screenshot-3-mobile.png)
+![Mobile Responsive View](screenshots/screenshot-3-mobile.png)
 
 ## Live Demo
 
