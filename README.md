@@ -63,24 +63,63 @@ A player wins by placing three identical marks in any of the following ways:
 
 ### Horizontal
 
-X | X | X
---- | --- | ---
- |  | 
- |  | 
+<table>
+<tr>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">X</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 ### Vertical
 
-X |  | 
---- | --- | ---
-X |  | 
-X |  | 
+<table>
+<tr>
+<td align="center">X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">X</td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 ### Diagonal
 
-X |  | 
---- | --- | ---
- | X | 
- |  | X
+<table>
+<tr>
+<td align="center">X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td align="center">X</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="center">X</td>
+</tr>
+</table>
 
 ## Screenshots
 
